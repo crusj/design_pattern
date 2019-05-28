@@ -10,6 +10,6 @@ class Client
         $expressAInstance = new ExpressA();// 表现形式
         $builderInstance = new Builder($expressAInstance); //建造者
 
-        $product = $builderInstance->getProduct();//获取构建产品
+        $productInfo = $builderInstance->getProduct();//获取构建产品
     }
 }

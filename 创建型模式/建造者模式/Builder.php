@@ -14,12 +14,12 @@ class Builder
         $this->express = $express;
     }
 
-    public function processA()
+    private function processA()
     {
         $this->A = $this->express->createA();
     }
 
-    public function processB()
+    private function processB()
     {
         $this->B = $this->express->createB();
     }
